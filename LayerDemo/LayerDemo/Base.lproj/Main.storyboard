@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w65-8j-hAS">
+                                <rect key="frame" x="107" y="40" width="128" height="128"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="56i-qq-ocX">
+                                        <rect key="frame" x="-39" y="-33" width="99" height="90"/>
+                                        <color key="backgroundColor" red="0.1019607843" green="0.72941176470000002" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="DtJ-3u-sgB"/>
+                                    <constraint firstAttribute="width" constant="128" id="sWa-Rv-RUQ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZnB-24-jmq">
+                                <rect key="frame" x="365" y="40" width="128" height="128"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EeL-mR-LFG">
+                                        <rect key="frame" x="-41" y="-31" width="99" height="90"/>
+                                        <color key="backgroundColor" red="0.1019607843" green="0.72941176470000002" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="PKZ-bz-tcb"/>
+                                    <constraint firstAttribute="width" constant="128" id="jIx-6L-bTd"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2.4line free.png" translatesAutoresizingMaskIntoConstraints="NO" id="foy-ac-z7p">
+                                <rect key="frame" x="365" y="417" width="128" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="128" id="SKP-U6-jhG"/>
+                                    <constraint firstAttribute="height" constant="128" id="Wb6-2B-ZWs"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7b1-Bm-fTG">
+                                <rect key="frame" x="300" y="300" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MAE-ul-CkZ">
+                                <rect key="frame" x="107" y="417" width="140" height="128"/>
+                                <color key="backgroundColor" red="0.49788148473250532" green="0.7651006711409396" blue="0.25915020382010068" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7b1-Bm-fTG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerXWithinMargins" id="MiC-W6-nlJ"/>
+                            <constraint firstItem="ZnB-24-jmq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="YA8-Ap-5m0"/>
+                            <constraint firstItem="w65-8j-hAS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="cKl-by-kpv"/>
+                            <constraint firstItem="7b1-Bm-fTG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lyr-2F-Bnr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="foy-ac-z7p" secondAttribute="trailing" constant="87" id="rat-CX-g6c"/>
+                            <constraint firstItem="w65-8j-hAS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="87" id="sjR-hu-h7k"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="foy-ac-z7p" secondAttribute="bottom" constant="55" id="v1m-QJ-TXG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZnB-24-jmq" secondAttribute="trailing" constant="87" id="xrc-AI-N5G"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="foy-ac-z7p" id="mu5-1b-eDh"/>
+                        <outlet property="labelView" destination="7b1-Bm-fTG" id="RLb-Nm-ehK"/>
+                        <outlet property="layerView1" destination="w65-8j-hAS" id="3td-te-3F8"/>
+                        <outlet property="layerView2" destination="ZnB-24-jmq" id="fIw-sA-8Hz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="579" y="464"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2.4line free.png" width="72" height="72"/>
+    </resources>
+</document>
